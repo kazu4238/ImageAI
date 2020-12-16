@@ -16,7 +16,17 @@
 	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>CFBundleDisplayName</key>
+	<string></string>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>アルバムから選ぶを許可</string>
+	<key>NSCameraUsageDescription</key>
+	<string>写真撮影を許可</string>
 </dict>
 </plist>
