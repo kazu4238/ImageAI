@@ -48,7 +48,7 @@ class ViewController: UIViewController,UINavigationControllerDelegate,
     func imageInference(image:UIImage){
 //        利用するmodelを指定する
 //        モデルファイルがあればファイルから取得して変数へ入れる
-        guard let model = try? VNCoreMLModel(for: MobileNetV2().model) else {
+        guard let model = try? VNCoreMLModel(for: AnimalClassifier().model) else {
 //            モデルファイルがない場合にはエラーを出力してアプリを落とす
             fatalError("モデルをロードできません")
         }
